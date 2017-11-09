@@ -3,7 +3,7 @@
 local exports = {}
 exports.name = "shutdown"
 exports.version = "0.0.1"
-exports.description = "Allows you to shut down a Windows system from within the MAME menu."
+exports.description = "Shut down a Windows system from the MAME menu."
 exports.license = "The BSD 3-Clause License"
 exports.author = { name = "Michael Smith" }
 
