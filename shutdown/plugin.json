@@ -1,0 +1,10 @@
+{
+  "plugin": {
+    "name": "shutdown",
+    "description": "Allows you to shut down a Windows system from within the MAME menu.",
+    "version": "0.0.1",
+    "author": "Michael Smith",
+    "type": "plugin",
+    "start": "true"
+  }
+}
