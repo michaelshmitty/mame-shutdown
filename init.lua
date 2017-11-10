@@ -16,7 +16,8 @@ function shutdown.startplugin()
 
     local function menu_callback(index, event)
         if event == "select" and index == 3 then
-            os.execute("shutdown /s /t 0")
+            manager:machine():exit()
+            os.execute("shutdown /s /t 10")
         end
         return false
     end
